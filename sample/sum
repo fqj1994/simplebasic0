@@ -1,0 +1,6 @@
+INPUT "Please input MIN and MAX: "; MIN, MAX
+SUM = 0
+FOR I = MIN TO MAX
+SUM = SUM + I
+NEXT I
+PRINT SUM

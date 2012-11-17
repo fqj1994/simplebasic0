@@ -1,0 +1,5 @@
+I = 0
+DO UNTIL I > 10
+PRINT I
+I = I + 1
+LOOP
