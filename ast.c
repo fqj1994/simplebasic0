@@ -275,7 +275,7 @@ void *run_ast(struct AST *ast) {
 						*intvalp = (*p1) * (*p2);
 						break;
 					case TYPE_DIVIDE:
-						if (*p2 == 0) { fprintf(stderr, "DIVIDION BY ZERO\n"); exit(1); }
+						if (*p2 == 0) { fprintf(stderr, "DIVISION BY ZERO\n"); exit(1); }
 						*intvalp = (*p1) / (*p2);
 						break;
 				}
